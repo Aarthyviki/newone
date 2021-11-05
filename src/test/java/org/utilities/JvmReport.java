@@ -9,7 +9,7 @@ import net.masterthought.cucumber.ReportBuilder;
 
 public class JvmReport {
 	
-	public void generateJvmReport(String Jsonpath) {
+	public static void generateJvmReport(String Jsonpath) {
 
 		File f=new File(System.getProperty( "user.dir"+"\\target\\Report"));
 		
